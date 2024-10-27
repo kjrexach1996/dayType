@@ -39,27 +39,13 @@ int main()
 
 	//Showing all possible dayType object values using printDay() function and providing acceptable parameters
 	cout << "Displaying all possible dayType object values using printDay(): " << endl;
-	cout << "myDay.printDay(0): ";
-	myDay.printDay(0);
+	for (int day = 0; day < 7; day++)
+	{
+		cout << "myDay.printDay(" << day << "): ";
+		myDay.printDay(day);
+		cout << endl;
+	}
 	cout << endl;
-	cout << "myDay.printDay(1): ";
-	myDay.printDay(1);
-	cout << endl;
-	cout << "myDay.printDay(2): ";
-	myDay.printDay(2);
-	cout << endl;
-	cout << "myDay.printDay(3): ";
-	myDay.printDay(3);
-	cout << endl;
-	cout << "myDay.printDay(4): ";
-	myDay.printDay(4);
-	cout << endl;
-	cout << "myDay.printDay(5): ";
-	myDay.printDay(5);
-	cout << endl;
-	cout << "myDay.printDay(6): ";
-	myDay.printDay(6);
-	cout << endl << endl;
 
 	//Creating a dayType object with an unacceptable parameter
 	cout << "Attempting to create a dayTime object using values outside of acceptable parameters: " << endl;

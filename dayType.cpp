@@ -57,7 +57,7 @@ void dayType::addDays(int num)
 
 dayType::dayType()
 {
-	currentDay = 0;
+	setDay(0);
 }
 
 dayType::dayType(int num)
