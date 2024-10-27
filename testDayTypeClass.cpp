@@ -127,5 +127,4 @@ int main()
 	cout << "myDay: ";
 	myDay.getDay();
 	cout << endl << endl;
-	
 }
